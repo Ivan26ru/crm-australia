@@ -49,5 +49,11 @@ header {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 a {
-
+	font-size:  28px;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	padding-top: 0px;
+	margin: 0 150px
+;
 }
