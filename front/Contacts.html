@@ -6,6 +6,8 @@
 
     <!-- Header Section -->
     <title>The Good PatioFens</title>
+	<!--	@todo Вынести в front/assets/css/main.css -->
+
     <style>
         body {
             margin:0;
@@ -50,10 +52,24 @@ Center elements horizontally*/
     <button>Team</button>
 </header>
 <body>
+<!--	@todo не верно закрываешь теги, <h1>test</h1> -->
+
     <h1>We would love to hear more about what you have in mind. <h1/>
         <p>If you know exactly what you are looking for individually or need our assistance,
             please contact us to take the next step<p/>
         <p class="subtitle"> - Projects starting at $3,000 - <p/>
+<!--	@todo добавить обязательные аттрибуты name, type	https://developer.mozilla.org/ru/docs/Web/HTML/Element/input -->
+<!--	@todo все поля для ввода - обязательно должны быть обернуты в тег Form с аттрибутами action, method	-->
+		example code
+		<!-- A common form that includes input tags -->
+		<form action="getform.php" method="get">
+			First name: <input type="text" name="first_name" /><br />
+			Last name: <input type="text" name="last_name" /><br />
+			E-mail: <input type="email" name="user_email" /><br />
+			<input type="submit" value="Submit" />
+		</form>
+
+
 <input>
         <input>
         <input>
