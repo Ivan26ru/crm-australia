@@ -1,4 +1,4 @@
-<style>
+
 body {
 	margin:0;
 	display: flex;
@@ -8,14 +8,16 @@ Center elements horizontally*/
 	padding-top: 0px;
 }
 h1 {
-	front-size: 48px;
-	front-weight: bold;
-	marigin-bottom: 20px;
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-top: 0px;
 }
 p{
-	front-size:  20px;
-	fromt-weight: bold;
+	font-size:  28px;
+	font-weight: bold;
 	margin-bottom: 40px;
+	padding-top: 0px;
 }
 header {
 	top: 0; /* Aligns the header at the top of the page*/
@@ -28,10 +30,20 @@ header {
 	background-color: #333; /*Sets the background color of the header */
 	color: white; /*Sets the text color to white*/
 }
-subtitle {
-	front-size:  40px;
-	fromt-weight: bold;
+.subtitle {
+	font-size:  28px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	padding-top: 0px;
+}
+.centered-text {
+	text-align: center;
+	font-weight: bold;
+	font-size:  20px;
 	margin-bottom: 40px;
 }
-
-</style>
+.container {
+	background-color: #fff;
+	padding: 40px;
+	width: 800px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
