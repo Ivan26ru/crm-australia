@@ -1,4 +1,37 @@
-.wrap-inner{
-	width: 900px;
-	margin: 0 auto;
+<style>
+body {
+	margin:0;
+	display: flex;
+	flex-direction: column;
+	align-items: center; /*
+Center elements horizontally*/
+	padding-top: 0px;
 }
+h1 {
+	front-size: 48px;
+	front-weight: bold;
+	marigin-bottom: 20px;
+}
+p{
+	front-size:  20px;
+	fromt-weight: bold;
+	margin-bottom: 40px;
+}
+header {
+	top: 0; /* Aligns the header at the top of the page*/
+	left: 0; /* Aligns the header to the left side of the page */
+	width: 100%; /*Center the text inside the header */
+	text-align: center; /* Add some space at the top of the header*/
+	padding: 15px 0; /*Adds padding inside the header for spacing */
+	z-index: 1000; /* Ensure the header stays on top of other content */
+	margin-top: 20px;
+	background-color: #333; /*Sets the background color of the header */
+	color: white; /*Sets the text color to white*/
+}
+subtitle {
+	front-size:  40px;
+	fromt-weight: bold;
+	margin-bottom: 40px;
+}
+
+</style>
