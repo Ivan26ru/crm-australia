@@ -8,13 +8,13 @@ Center elements horizontally*/
 	padding-top: 0px;
 }
 h1 {
-	front-size: 48px;
-	front-weight: bold;
-	marigin-bottom: 20px;
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 p{
-	front-size:  20px;
-	fromt-weight: bold;
+	font-size:  20px;
+	font-weight: bold;
 	margin-bottom: 40px;
 }
 header {
@@ -29,8 +29,8 @@ header {
 	color: white; /*Sets the text color to white*/
 }
 subtitle {
-	front-size:  40px;
-	fromt-weight: bold;
+	font-size:  40px;
+	font-weight: bold;
 	margin-bottom: 40px;
 }
 
