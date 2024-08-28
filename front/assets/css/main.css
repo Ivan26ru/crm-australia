@@ -13,10 +13,22 @@ h1 {
 	margin-bottom: 20px;
 	padding-top: 0px;
 }
+h2 {
+	font-size:  18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+h3 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-top: 0px;
+}
 p{
 	font-size:  28px;
 	font-weight: bold;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	padding-top: 0px;
 }
 header {
@@ -26,7 +38,7 @@ header {
 	text-align: center; /* Add some space at the top of the header*/
 	padding: 15px 0; /*Adds padding inside the header for spacing */
 	z-index: 1000; /* Ensure the header stays on top of other content */
-	margin-top: 20px;
+	margin-top: 0px;
 	background-color: #333; /*Sets the background color of the header */
 	color: white; /*Sets the text color to white*/
 }
@@ -43,7 +55,7 @@ header {
 	margin-bottom: 40px;
 }
 .container {
-	background-color: #fff;
+	background-color: white;
 	padding: 40px;
 	width: 800px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -54,6 +66,38 @@ a {
 	border-radius: 5px;
 	margin-bottom: 40px;
 	padding-top: 0px;
-	margin: 0 150px
-;
+	margin: 0 150px;
+}
+.left-text {
+	text-align: left;
+}
+.form_input {
+	width: 350px;
+	height: 30px;
+	border: 2px solid grey;
+	background-color: white;
+	padding: 5px;
+	font-size: 10px;
+	border-radius: 5px;
+	box-sizing: content-box;
+	margin-bottom: 30px;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+.form-container{
+	display: flex;
+	justify-content: space-between;
+}
+.textarea_input {
+	width: 100%;
+	padding: 10px;
+	height: 100px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	resize: none;
 }
