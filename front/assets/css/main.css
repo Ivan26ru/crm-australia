@@ -1,76 +1,97 @@
-
 body {
-	margin:0;
+	margin: 0;
 	display: flex;
 	flex-direction: column;
-	align-items: center; /*
-Center elements horizontally*/
+	align-items: center;
 	padding-top: 0px;
 }
+
 h1 {
 	font-size: 48px;
 	font-weight: bold;
 	margin-bottom: 20px;
 	padding-top: 0px;
 }
+
 h2 {
-	font-size:  18px;
+	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 20px;
 	padding-top: 10px;
 }
+
 h3 {
 	font-size: 28px;
 	font-weight: bold;
 	margin-bottom: 0px;
 	padding-top: 0px;
 }
-p{
-	font-size:  28px;
+
+h4 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	color: #999;
+}
+
+p {
+	font-size: 28px;
 	font-weight: bold;
 	margin-bottom: 20px;
 	padding-top: 0px;
 }
+
 header {
-	top: 0; /* Aligns the header at the top of the page*/
-	left: 0; /* Aligns the header to the left side of the page */
-	width: 100%; /*Center the text inside the header */
-	text-align: center; /* Add some space at the top of the header*/
-	padding: 15px 0; /*Adds padding inside the header for spacing */
-	z-index: 1000; /* Ensure the header stays on top of other content */
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+	z-index: 1000;
 	margin-top: 0px;
-	background-color: #333; /*Sets the background color of the header */
-	color: white; /*Sets the text color to white*/
+	background-color: #333;
+	color: white;
 }
+
 .subtitle {
-	font-size:  28px;
+	font-size: 28px;
 	font-weight: bold;
 	margin-bottom: 40px;
 	padding-top: 0px;
 }
+
 .centered-text {
 	text-align: center;
 	font-weight: bold;
-	font-size:  20px;
+	font-size: 20px;
 	margin-bottom: 40px;
 }
+
 .container {
 	background-color: white;
 	padding: 40px;
 	width: 800px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 50px auto;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 10px;
 }
+
 a {
-	font-size:  28px;
+	font-size: 28px;
 	color: white;
 	border-radius: 5px;
 	margin-bottom: 40px;
 	padding-top: 0px;
 	margin: 0 150px;
 }
+
 .left-text {
 	text-align: left;
 }
+
 .form_input {
 	width: 350px;
 	height: 30px;
@@ -82,22 +103,77 @@ a {
 	box-sizing: content-box;
 	margin-bottom: 30px;
 }
+
 .column {
 	display: flex;
 	flex-direction: column;
 	width: 48%;
 }
-.form-container{
+
+.form-container {
 	display: flex;
 	justify-content: space-between;
 }
+
 .textarea_input {
 	width: 100%;
 	padding: 10px;
-	height: 100px;
+	height: 200px;
 	border: 2px solid grey;
 	border-radius: 5px;
 	box-sizing: border-box;
 	margin-bottom: 20px;
 	resize: none;
+}
+
+.custom-file-upload {
+	top: 15px;
+	left: -332px;
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: 2px solid grey;
+	border-radius: 5px;
+	background-color: #f4f4f4;
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.custom-file-upload:hover {
+	background-color: #ddd;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+.submit-button {
+	width: 100%;
+	padding: 15px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	background-color: grey;
+	color: white;
+	cursor: pointer;
+}
+
+.submit-button:hover {
+	background-color: #555;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	background-color: grey;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #555;
 }
