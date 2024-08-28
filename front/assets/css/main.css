@@ -95,7 +95,7 @@ a {
 .form_input {
 	width: 350px;
 	height: 30px;
-	border: 2px solid grey;
+	border: 3px solid grey;
 	background-color: white;
 	padding: 5px;
 	font-size: 10px;
@@ -117,7 +117,6 @@ a {
 
 .textarea_input {
 	width: 100%;
-	padding: 10px;
 	height: 200px;
 	border: 2px solid grey;
 	border-radius: 5px;
