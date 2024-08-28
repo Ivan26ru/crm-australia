@@ -176,3 +176,41 @@ button {
 button:hover {
 	background-color: #555;
 }
+.footer {
+
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333; /* Цвет фона футера */
+	color: white; /* Цвет текста футера */
+	text-align: center; /* Центрирование текста */
+	padding: 10px 0; /* Отступы сверху и снизу */
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Тень для создания эффекта */
+	z-index: 1000; /* Убедитесь, что футер всегда наверху */
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 15px;
+	padding: 20px;
+}
+.grid-item {
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8 px rgba(0,0,0,0.1);
+}
+.grid-item img {
+	width:  100%;
+	height:  auto;
+	margin-top: 10px;
+
+}
+.description {
+	font-size: 14px;
+	color: black;
+}
