@@ -77,6 +77,7 @@ header {
 	text-align: center;
 	border: 1px solid #ccc;
 	border-radius: 10px;
+	margin-bottom: 200px;
 }
 
 a {
@@ -85,7 +86,7 @@ a {
 	border-radius: 5px;
 	margin-bottom: 40px;
 	padding-top: 0px;
-	margin: 0 150px;
+	margin: 0 120px;
 }
 
 .left-text {
@@ -180,6 +181,7 @@ button:hover {
 
 }
 .footer {
+
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -193,7 +195,7 @@ button:hover {
 }
 .grid-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-columns: 1fr 1fr;
 	grid-gap: 15px;
 	padding: 20px;
 }
@@ -205,7 +207,7 @@ button:hover {
 	box-shadow: 0 4px 8 px rgba(0,0,0,0.1);
 }
 .grid-item img {
-	width:  100%;
+	width:  50%;
 	height:  auto;
 	margin-top: 10px;
 
